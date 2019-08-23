@@ -1,13 +1,40 @@
 body{
-  background-color: lightblue;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
 }
-h1{ color: #66BFBF;}
-h3{ color: #0066FF;}
-hr{
+.top-container{
+  background-color: #ba34ab;
+  position: relative;
+  padding-top: 100px;
+}
+h1{
+  margin: auto;
+font-family: 'Sacramento', cursive;
+}
+h2 {font-family: 'Montserrat', sans-serif;}
+h3 {font-family: 'Montserrat', sans-serif;}
+.middle-container{
 
-  border-style: none;
-  border-top-style: dotted;
-  border-color: grey;
-  border-width: 4px;
-  width: 5%;
+}
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.bottom-container{
+  
+}
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+
+}
+.top-cloud{
+  position: absolute;
+  margin-left: 200px;
+}
+.pro{
+  text-decoration: underline;
 }
